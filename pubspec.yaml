@@ -1,0 +1,28 @@
+name: onboarding_sdk
+description: "Flutter package for interactive feature tours and onboarding experiences"
+version: 0.1.0
+homepage: "https://github.com/your-username/onboarding_sdk"
+repository: "https://github.com/your-username/onboarding_sdk"
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.0.0"  # Minimum Flutter version required
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.0  # For persisting tour completion status
+  provider: ^6.0.5  # Optional but recommended for state management
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# The following section configures Flutter-specific features
+flutter:
+  uses-material-design: true
+
+  # Uncomment to add assets:
+  # assets:
+  #   - assets/images/
